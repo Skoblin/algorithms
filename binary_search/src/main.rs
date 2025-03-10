@@ -1,6 +1,6 @@
 fn main() {
     let number = 7;
-    let numbers: Vec<i32> = Vec::new();
+    let numbers: Vec<i32> = vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
     match binary_search(number, numbers) {
         Some(index) => println!("Индекс найденного элемента: {}", index),
         None => println!("В массиве нет заданного элемента"),
